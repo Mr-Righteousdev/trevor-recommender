@@ -358,6 +358,6 @@ After completing all sections, record your results here:
 | "Database connection failed" | Check `config/database.php` credentials match your MySQL setup |
 | Blank page | Enable error reporting: add `error_reporting(E_ALL); ini_set('display_errors', 1);` at top of the file |
 | 404 errors on pages | Make sure you ran `migrations.sql` and the folder name in the URL matches |
-| "Table doesn't exist" | Run `database/schema.sql` first, then `database/migrations.sql` |
+| "Table doesn't exist" | Run `database/schema.sql` — it contains all tables, seed data, and activity log |
 | Session errors | Make sure PHP sessions are enabled in `php.ini` (`session.auto_start = 1` or manual start) |
 | CSRF token errors | Clear your browser cookies and try again |
