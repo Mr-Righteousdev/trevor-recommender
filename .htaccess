@@ -1,0 +1,11 @@
+Options -Indexes
+
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
+
+# Protect config
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^config/ - [F,L]
+</IfModule>
