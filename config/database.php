@@ -8,9 +8,9 @@
  */
 
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'cbc_recommender');
-define('DB_USER', 'root');
-define('DB_PASS', '');          // Change this if your MySQL has a password
+define('DB_NAME', 'cbc_recommenderdb');
+define('DB_USER', 'jm');
+define('DB_PASS', 'jm');          // Change this if your MySQL has a password
 define('DB_CHARSET', 'utf8mb4');
 
 /**
